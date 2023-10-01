@@ -24,9 +24,7 @@ public class FibonacciSeries {
         }
 
         int[] fibonacciSeries = new int[limit];
-
         int first = 0;
-        int second = 1;
 
         fibonacciSeries[0] = first;
         if (limit == 1) {
@@ -34,6 +32,7 @@ public class FibonacciSeries {
             return fibonacciSeries;
         }
 
+        int second = 1;
         fibonacciSeries[1] = second;
         int startIndex = 2;
 
